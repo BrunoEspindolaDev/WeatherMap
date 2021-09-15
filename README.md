@@ -1,46 +1,42 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![logo](https://user-images.githubusercontent.com/58474402/133510169-0056f4ee-d70a-4f21-8bae-4f100c6a1573.png)
 
-In the project directory, you can run:
+## WeatherMap
 
-### `yarn start`
+You can access the project here: http://weathermap.pe.hu/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Project Overview
+WeatherMap is a conceptual prototype capable of querying weather information from the geolocation of regions selected by the user.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Main Features
+- Get user location;
+- Selectable location in map;
+- Show weather information of selected location;
+- Assisted search with auto-complete input;
+- Draggable card;
+- Feedback during data loading;
+- Error Handler;
 
-### `yarn test`
+###  Tecnologies and Tools
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ReactJs
+- Typescript
+- Chakra-UI
+- React-Leaflet
+- Axios
 
-### `yarn build`
+### Services
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- OpenWeatherMap: https://openweathermap.org/
+- Microsoft/BingMaps: https://docs.microsoft.com/en-us/bingmaps/
+- MapBox: https://www.mapbox.com/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Load Project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    npm install
+	npm start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
